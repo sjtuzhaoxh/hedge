@@ -1,0 +1,22 @@
+# 所有时间都是毫秒，所有小数都是原数值(不转化为百分比)
+
+# 价差
+spread = 0.006
+# 报价币种
+quote = 'USDT'
+# 最大延迟
+max_delay = 10
+# 预留保证金
+reserve_margin = 0.05
+# 每单最大仓位占比
+pos_rate = 0.2
+# 交易占bbo容量的比率(1就是全吃最优买卖的容量)
+bbo_volume_rate = 0.5
+# 杠杆
+leverage = 10
+# 最小名义价值
+min_nominal = 5
+# symbols范围
+symbol_rang = [0, -1]
+# symbol黑名单
+symbols_blacklist = ['NEIROUSDT']

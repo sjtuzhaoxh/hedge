@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hedge"
+version = "0.1.0"
+description = ""
+authors = ["wb <1158211734@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dynaconf = "^3.2.6"
+requests = "^2.32.3"
+websockets = "^13.0.1"
+pandas = "^2.2.3"
+cryptography = "^43.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

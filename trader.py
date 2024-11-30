@@ -1,5 +1,7 @@
 import asyncio
 import signal
+import traceback
+
 from exchanges.binance import Binance
 from exchanges.gate import Gate
 from models.models import *
@@ -283,6 +285,7 @@ class Trader:
             print("main: 任务被取消")
         except Exception as e:
             print(f"main: 报错 {e}")
+            traceback.print_exc()
 
 
 async def shutdown(loop, signal=None):
